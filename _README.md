@@ -14,7 +14,7 @@ stuff
 stuff
 ```
 
-## 🔒️ Sensible informations
+### 🔒️ Sensible informations
 
 Sensible files won't be versionned in this public project.
 
@@ -25,6 +25,10 @@ Instead, they will be stored on a *private* repository, containing the same tree
 Just copy/paste the 'secrets' repository on top of this one **on your local machine only**.
 
 And don't forget to update it if some creditentials changes.
+
+## Documentation
+
+This project's documentation can be found in the [_docs](./_docs/) folder.
 
 ## Technologies
 

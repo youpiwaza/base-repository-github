@@ -11,4 +11,5 @@ Some basic & configuration files, ready to copy/paste to a new repository.
 | `_README.md` | 📝 Project notes, to be renamed to `README.md` |  |
 | `TODO.md` | 🌱 Project tasks to be done |  |
 | `SHAME.md` | 🍻 Project tasks to be re-done | [shame.css](https://csswizardry.com/2013/04/shame-css/) |
-| `_local/README.md` | 📝 Local project setup notes |  |
+| `_docs/README.md` | 📝 Where to store the project documentation, with some folders structure |  |
+| `_docs/local-environnement-setup.md` | 📝 Local project setup notes |  |
