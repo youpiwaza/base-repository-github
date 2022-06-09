@@ -106,6 +106,8 @@ hostsWithCustomSSHPort
 #### Real variables file
 **/**/vars/main.yml
 
+### WordPress
+**/wp-config.php
 
 
 # 📌 Tests / Unit tests reports
