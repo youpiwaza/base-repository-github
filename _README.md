@@ -2,7 +2,7 @@
 
 Small description of the project.
 
-## Usual comands
+## Usual commands
 
 ```bash
 stuff
