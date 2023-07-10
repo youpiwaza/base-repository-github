@@ -99,6 +99,8 @@ vendor/
 # Ignore everywhere any "_secret" suffixed file
 **/*_secret*
 
+
+
 ### 🤖 Ansible
 #### Real hosts file
 hosts
@@ -106,8 +108,27 @@ hostsWithCustomSSHPort
 #### Real variables file
 **/**/vars/main.yml
 
+
+
 ### WordPress
+#       Remove sensitive informations
 **/wp-config.php
+
+#       Remove folders to get from a fresh installation
+wp-admin/
+wp-includes/
+wp-content/upgrade/
+
+#       Remove caching folders / logs, plugins dependant
+wp-content/ai1wm-backups/
+wp-content/cache/
+wp-content/et-cache/
+wp-content/wflogs/
+
+#   🖼️ If too many picture, github might get grumpy
+wp-content/uploads/
+wp-content/uploads-webpc/
+
 
 
 # 📌 Tests / Unit tests reports
