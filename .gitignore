@@ -117,17 +117,28 @@ hostsWithCustomSSHPort
 #       Remove folders to get from a fresh installation
 wp-admin/
 wp-includes/
+wp-content/languages/
 wp-content/upgrade/
+www/wp-admin/
+www/wp-includes/
+www/wp-content/languages/
+www/wp-content/upgrade/
 
 #       Remove caching folders / logs, plugins dependant
 wp-content/ai1wm-backups/
 wp-content/cache/
 wp-content/et-cache/
 wp-content/wflogs/
+www/wp-content/ai1wm-backups/
+www/wp-content/cache/
+www/wp-content/et-cache/
+www/wp-content/wflogs/
 
 #   🖼️ If too many picture, github might get grumpy
 wp-content/uploads/
 wp-content/uploads-webpc/
+www/wp-content/uploads/
+www/wp-content/uploads-webpc/
 
 
 
